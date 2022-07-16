@@ -8,6 +8,7 @@
   "author": "Fábio Dantas",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.27.2",
     "express": "^4.18.1",
     "prettier": "^2.7.1"
   },
