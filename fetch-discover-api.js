@@ -63,7 +63,7 @@ app.route('/api/:id').put((req, res) => {
         if (Number(user.id) === Number(userId)) {
             user = updatedUser;
         }
-        return userId;
+        return user;
     });
 
     res.json('Updated user');
